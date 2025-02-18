@@ -1,0 +1,31 @@
+Visual Studio Code (1.97.2, ssh-remote, desktop)
+Jupyter Extension Version: 2025.1.0.
+Python Extension Version: 2025.0.0.
+Pylance Extension Version: 2025.2.1.
+Platform: linux (x64).
+Home = /teamspace/studios/this_studio
+Temp Storage folder ~/.vscode-server/data/User/globalStorage/ms-toolsai.jupyter/version-2025.1.0
+Workspace folder /teamspace/studios/this_studio
+14:52:29.524 [info] Starting Kernel (Python Path: /home/zeus/miniconda3/envs/cloudspace/bin/python, Conda, 3.10.10) for '~/test.ipynb' (disableUI=true)
+14:52:30.782 [info] Process Execution: /home/zeus/miniconda3/envs/cloudspace/bin/python -m pip list
+14:52:30.861 [info] Process Execution: /home/zeus/miniconda3/envs/cloudspace/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+14:52:30.869 [info] Process Execution: /home/zeus/miniconda3/envs/cloudspace/bin/python -m ipykernel_launcher --f=<username>/.local/share/jupyter/runtime/kernel-v3b18f3e7f27652774d3e1544f6aa03253c8a2ad4b.json
+    > cwd: <username>
+14:52:31.576 [info] Kernel successfully started
+14:52:31.582 [info] Process Execution: /home/zeus/miniconda3/envs/cloudspace/bin/python <username>/.vscode-server/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64/pythonFiles/printJupyterDataDir.py
+15:01:01.873 [warn] Cell completed with errors [su [Error]: "bitwise_and_cpu" not implemented for 'Float'
+	at n.execute (<username>/.vscode-server/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64/dist/extension.node.js:297:4958)] {
+  ename: 'RuntimeError',
+  evalue: `"bitwise_and_cpu" not implemented for 'Float'`,
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mRuntimeError\x1B[0m                              Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[2], line 20\x1B[0m\n' +
+      '\x1B[1;32m     17\x1B[0m causal_mask_tensor \x1B[38;5;241m=\x1B[39m causal_mask(seq_len)\n' +
+      '\x1B[1;32m     19\x1B[0m \x1B[38;5;66;03m# Apply bitwise AND to combine padding mask and causal mask\x1B[39;00m\n' +
+      '\x1B[0;32m---> 20\x1B[0m decoder_mask \x1B[38;5;241m=\x1B[39m \x1B[43mpadding_mask\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43munsqueeze\x1B[49m\x1B[43m(\x1B[49m\x1B[38;5;241;43m-\x1B[39;49m\x1B[38;5;241;43m1\x1B[39;49m\x1B[43m)\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;241;43m&\x1B[39;49m\x1B[43m \x1B[49m\x1B[43mcausal_mask_tensor\x1B[49m  \x1B[38;5;66;03m# Shape (1, seq_len, seq_len)\x1B[39;00m\n' +
+      '\x1B[1;32m     22\x1B[0m \x1B[38;5;28mprint\x1B[39m(\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mDecoder Input:\x1B[39m\x1B[38;5;124m"\x1B[39m, decoder_input\x1B[38;5;241m.\x1B[39mtolist())\n' +
+      '\x1B[1;32m     23\x1B[0m \x1B[38;5;28mprint\x1B[39m(\x1B[38;5;124m"\x1B[39m\x1B[38;5;124mPadding Mask:\x1B[39m\x1B[38;5;124m"\x1B[39m, padding_mask\x1B[38;5;241m.\x1B[39mtolist())\n',
+    `\x1B[0;31mRuntimeError\x1B[0m: "bitwise_and_cpu" not implemented for 'Float'`
+  ]
+}

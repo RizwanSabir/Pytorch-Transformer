@@ -1,0 +1,23 @@
+2025-02-18 07:55:01.573 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-02-18 07:55:01.573 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-02-18 07:55:01.573 [info] Experiment 'pythonTestAdapter' is active
+2025-02-18 07:55:01.573 [info] Native locator: Refresh started
+2025-02-18 07:55:01.574 [info] Poetry environment manager found at: /commands/poetry
+2025-02-18 07:55:01.574 [info] Conda environment manager found at: /home/zeus/miniconda3/bin/conda
+2025-02-18 07:55:01.574 [info] Using conda: /home/zeus/miniconda3/bin/conda
+2025-02-18 07:55:01.574 [info] Native locator: Refresh finished in 209 ms
+2025-02-18 07:55:01.574 [info] Native locator: Refresh started
+2025-02-18 07:55:01.610 [info] Poetry environment manager found at: /commands/poetry
+2025-02-18 07:55:01.624 [info] Conda environment manager found at: /home/zeus/miniconda3/bin/conda
+2025-02-18 07:55:01.624 [info] Conda set to: /home/zeus/miniconda3/bin/conda
+2025-02-18 07:55:01.631 [info] > /home/zeus/miniconda3/bin/conda info --json
+2025-02-18 07:55:01.750 [info] Native locator: Refresh finished in 188 ms
+2025-02-18 07:55:01.899 [info] > pyenv which python
+2025-02-18 07:55:01.900 [info] cwd: .
+2025-02-18 07:55:02.244 [info] Python interpreter path: /home/zeus/miniconda3/envs/cloudspace/bin/python
+2025-02-18 07:55:03.298 [warning] Shell integration may not be active, environment activated may be overridden by the shell.
+2025-02-18 07:55:04.273 [info] Starting Pylance language server.
+2025-02-18 08:12:51.747 [info] > /home/zeus/miniconda3/bin/conda run -n cloudspace --no-capture-output python ./.vscode-server/extensions/ms-python.python-2025.0.0-linux-x64/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2025.0.0-linux-x64/python_files/printEnvVariables.py
+2025-02-18 08:12:51.747 [info] shell: bash
+2025-02-18 08:12:51.747 [info] > /home/zeus/miniconda3/bin/conda run -n cloudspace --no-capture-output python ./.vscode-server/extensions/ms-python.python-2025.0.0-linux-x64/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2025.0.0-linux-x64/python_files/printEnvVariables.py
+2025-02-18 08:12:51.747 [info] shell: bash

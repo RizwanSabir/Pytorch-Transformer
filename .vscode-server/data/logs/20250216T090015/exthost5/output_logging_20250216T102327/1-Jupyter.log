@@ -1,0 +1,16 @@
+Visual Studio Code (1.97.2, ssh-remote, desktop)
+Jupyter Extension Version: 2025.1.0.
+Python Extension Version: 2025.0.0.
+Pylance Extension Version: 2025.2.1.
+Platform: linux (x64).
+Home = /teamspace/studios/this_studio
+Temp Storage folder ~/.vscode-server/data/User/globalStorage/ms-toolsai.jupyter/version-2025.1.0
+Workspace folder /teamspace/studios/this_studio
+10:23:43.622 [info] Starting Kernel (Python Path: /home/zeus/miniconda3/envs/cloudspace/bin/python, Conda, 3.10.10) for '~/model.ipynb' (disableUI=true)
+10:23:45.183 [info] Process Execution: /home/zeus/miniconda3/envs/cloudspace/bin/python -m pip list
+10:23:45.308 [info] Process Execution: /home/zeus/miniconda3/envs/cloudspace/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+10:23:45.313 [info] Process Execution: /home/zeus/miniconda3/envs/cloudspace/bin/python -m ipykernel_launcher --f=<username>/.local/share/jupyter/runtime/kernel-v3284dd06358c5da1c3964435df5a87d43cd0077fa.json
+    > cwd: <username>
+10:23:45.862 [info] Kernel successfully started
+10:23:45.893 [info] Process Execution: /home/zeus/miniconda3/envs/cloudspace/bin/python <username>/.vscode-server/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64/pythonFiles/printJupyterDataDir.py
+10:53:20.010 [info] Dispose Kernel '~/model.ipynb' associated with '~/model.ipynb'

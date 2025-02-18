@@ -1,0 +1,69 @@
+2025-02-18 11:48:49.041 [info] [main] Log level: Info
+2025-02-18 11:48:49.041 [info] [main] Validating found git in: "git"
+2025-02-18 11:48:49.041 [info] [main] Using git "2.42.0" from "git"
+2025-02-18 11:48:49.041 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-18 11:48:49.041 [info] > git rev-parse --show-toplevel [26ms]
+2025-02-18 11:48:49.041 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-18 11:48:49.041 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-18 11:48:49.041 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-18 11:48:49.041 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-18 11:48:49.041 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-18 11:48:49.041 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-18 11:48:49.041 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-18 11:48:49.041 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-18 11:48:49.041 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-18 11:48:49.041 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-18 11:48:49.041 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-18 11:48:49.041 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-18 11:48:49.041 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-18 11:48:49.041 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-18 11:48:49.041 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-18 11:48:49.041 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-18 11:48:49.041 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-18 11:48:49.041 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-18 11:48:49.041 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-18 11:48:49.041 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-18 11:48:49.041 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-18 11:48:49.041 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-18 11:48:49.041 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-18 11:48:49.041 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-18 11:48:49.395 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-18 11:48:49.396 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-18 11:48:52.086 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-18 11:48:52.086 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-18 11:48:54.619 [info] > git rev-parse --show-toplevel [8ms]
+2025-02-18 11:48:54.622 [info] fatal: not a git repository (or any parent up to mount point /teamspace/studios)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-02-18 11:49:45.172 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-18 11:49:45.178 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-02-18 11:49:45.185 [info] [Model][openRepository] Opened repository: /teamspace/studios/this_studio
+2025-02-18 11:49:45.197 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-18 11:49:45.197 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-18 11:49:45.198 [warning] [Git][getBranch] No such branch: master
+2025-02-18 11:49:45.198 [info] > git config --get commit.template [8ms]
+2025-02-18 11:49:45.206 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-18 11:49:46.104 [info] > git status -z -uall [903ms] (cancelled)
+2025-02-18 11:49:46.126 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [30ms]
+2025-02-18 11:49:46.127 [warning] [Git][getBranch] No such branch: master
+2025-02-18 11:49:46.128 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-02-18 11:49:46.130 [info] > git check-ignore -v -z --stdin [14ms]
+2025-02-18 11:49:46.134 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-18 11:49:46.913 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [780ms]
+2025-02-18 11:49:46.913 [warning] [Git][getBranch] No such branch: master
+2025-02-18 11:49:46.914 [info] > git config --get commit.template [788ms]
+2025-02-18 11:49:46.958 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [28ms]
+2025-02-18 11:49:47.695 [info] > git status -z -uall [770ms] (cancelled)

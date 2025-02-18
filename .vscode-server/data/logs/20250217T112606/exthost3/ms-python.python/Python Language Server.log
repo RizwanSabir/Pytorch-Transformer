@@ -1,0 +1,38 @@
+2025-02-17 14:35:37.983 [info] (Client) Pylance async client (2025.2.1) started with python extension (2025.0.0)
+2025-02-17 14:35:38.468 [info] [Info  - 2:35:38 PM] (36988) Server root directory: file:///teamspace/studios/this_studio/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-17 14:35:38.471 [info] [Info  - 2:35:38 PM] (36988) Pylance language server 2025.2.1 (pyright version 1.1.393, commit 3763156f) starting
+2025-02-17 14:35:38.472 [info] [Info  - 2:35:38 PM] (36988) Starting service instance "this_studio"
+2025-02-17 14:35:38.543 [info] [Info  - 2:35:38 PM] (36988) Setting environmentName for service "this_studio": "3.10.10 (cloudspace conda)"
+2025-02-17 14:35:38.544 [info] [Info  - 2:35:38 PM] (36988) Setting pythonPath for service "this_studio": "/home/zeus/miniconda3/envs/cloudspace/bin/python"
+2025-02-17 14:35:38.545 [info] [Info  - 2:35:38 PM] (36988) No include entries specified; assuming /teamspace/studios/this_studio
+2025-02-17 14:35:38.546 [info] [Info  - 2:35:38 PM] (36988) Auto-excluding **/node_modules
+2025-02-17 14:35:38.547 [info] [Info  - 2:35:38 PM] (36988) Auto-excluding **/__pycache__
+2025-02-17 14:35:38.547 [info] [Info  - 2:35:38 PM] (36988) Auto-excluding **/.*
+2025-02-17 14:35:38.574 [info] [Info  - 2:35:38 PM] (36988) Assuming Python version 3.10.10.final.0
+2025-02-17 14:35:38.897 [info] [Info  - 2:35:38 PM] (36988) Found 1 source file
+2025-02-17 14:35:38.949 [info] [Info  - 2:35:38 PM] (36988) Starting service instance "this_studio"
+2025-02-17 14:35:38.973 [info] [Info  - 2:35:38 PM] (36988) Setting environmentName for service "this_studio": "3.10.10 (cloudspace conda)"
+2025-02-17 14:35:38.973 [info] [Info  - 2:35:38 PM] (36988) Setting pythonPath for service "this_studio": "/teamspace/studios/this_studio"
+2025-02-17 14:35:38.973 [info] [Info  - 2:35:38 PM] (36988) No include entries specified; assuming /teamspace/studios/this_studio
+2025-02-17 14:35:38.978 [info] [Info  - 2:35:38 PM] (36988) Auto-excluding **/node_modules
+2025-02-17 14:35:38.978 [info] [Info  - 2:35:38 PM] (36988) Auto-excluding **/__pycache__
+2025-02-17 14:35:38.978 [info] [Info  - 2:35:38 PM] (36988) Auto-excluding **/.*
+2025-02-17 14:35:39.057 [info] [Info  - 2:35:39 PM] (36988) Found 1 source file
+2025-02-17 14:35:39.131 [info] [Info  - 2:35:39 PM] (36988) Background analysis(1) root directory: file:///teamspace/studios/this_studio/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-17 14:35:39.578 [info] [Info  - 2:35:39 PM] (36988) Background analysis(1) started
+2025-02-17 14:35:39.761 [info] [Info  - 2:35:39 PM] (36988) Background analysis(2) root directory: file:///teamspace/studios/this_studio/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-17 14:35:39.761 [info] [Info  - 2:35:39 PM] (36988) Background analysis(2) started
+2025-02-17 14:35:39.788 [info] [Info  - 2:35:39 PM] (36988) Indexer background runner(3) root directory: file:///teamspace/studios/this_studio/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist (index)
+2025-02-17 14:35:39.798 [info] [Info  - 2:35:39 PM] (36988) Indexing(3) started
+2025-02-17 14:35:41.074 [info] [Info  - 2:35:41 PM] (36988) scanned(3) 1 files over 1 exec env
+2025-02-17 14:35:41.240 [info] [Info  - 2:35:41 PM] (36988) indexed(3) 1 files over 1 exec env
+2025-02-17 14:35:41.259 [info] [Info  - 2:35:41 PM] (36988) Indexing finished(3).
+2025-02-17 14:52:18.667 [info] [Info  - 2:52:18 PM] (36988) Found 2 source files
+2025-02-17 14:52:18.675 [info] [Info  - 2:52:18 PM] (36988) Found 35 source files
+2025-02-17 14:52:19.693 [info] [Info  - 2:52:19 PM] (36988) Indexer background runner(4) root directory: file:///teamspace/studios/this_studio/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist (index)
+2025-02-17 14:52:19.693 [info] [Info  - 2:52:19 PM] (36988) Indexing(4) started
+2025-02-17 14:52:20.262 [info] [Info  - 2:52:20 PM] (36988) scanned(4) 369 files over 1 exec env
+2025-02-17 14:52:20.564 [info] [Info  - 2:52:20 PM] (36988) indexed(4) 369 files over 1 exec env
+2025-02-17 14:52:20.657 [info] [Info  - 2:52:20 PM] (36988) Indexing finished(4).
+2025-02-17 14:52:28.468 [info] [Info  - 2:52:28 PM] (36988) Found 1 source file
+2025-02-17 14:52:28.476 [info] [Info  - 2:52:28 PM] (36988) Found 34 source files

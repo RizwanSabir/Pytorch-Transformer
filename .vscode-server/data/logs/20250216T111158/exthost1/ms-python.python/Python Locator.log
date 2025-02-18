@@ -1,0 +1,61 @@
+2025-02-16 11:12:11.386 [info] Starting Python Locator /teamspace/studios/this_studio/.vscode-server/extensions/ms-python.python-2025.0.0-linux-x64/python-env-tools/bin/pet server
+2025-02-16 11:12:11.386 [info] Discovered manager: (Conda) /home/zeus/miniconda3/bin/conda
+2025-02-16 11:12:11.386 [info] Discovered env: /home/zeus/miniconda3/envs/cloudspace/bin/python
+2025-02-16 11:12:11.386 [info] Discovered manager: (Poetry) /commands/poetry
+2025-02-16 11:12:11.386 [info] Discovered env: /usr/bin/python3
+2025-02-16 11:12:11.386 [info] Discovered env: /bin/python3
+2025-02-16 11:12:11.386 [info] Locator Conda took 89.878756ms
+2025-02-16 11:12:11.386 [info] Locator Homebrew took 99.939µs
+2025-02-16 11:12:11.386 [info] Locator LinuxGlobal took 50.360395ms
+2025-02-16 11:12:11.386 [info] Locator PipEnv took 10.388µs
+2025-02-16 11:12:11.387 [info] Locator Poetry took 27.872824ms
+2025-02-16 11:12:11.387 [info] Locator PyEnv took 100.312µs
+2025-02-16 11:12:11.387 [info] Locator Venv took 7.031µs
+2025-02-16 11:12:11.387 [info] Locator VirtualEnv took 10.495µs
+2025-02-16 11:12:11.387 [info] Locator VirtualEnvWrapper took 7.993µs
+2025-02-16 11:12:11.387 [info] Locator GlobalVirtualEnvs took 384.767µs
+2025-02-16 11:12:11.387 [info] Locator Locators took 94.841701ms
+2025-02-16 11:12:11.387 [info] Locator Path took 129.856373ms
+2025-02-16 11:12:11.387 [info] Locator Workspaces took 37.491403ms
+2025-02-16 11:12:11.387 [info] Refresh completed in 131ms
+2025-02-16 11:12:11.398 [info] Resolved Python Environment /home/zeus/miniconda3/envs/cloudspace/bin/python
+2025-02-16 11:12:11.407 [info] Discovered manager: (Conda) /home/zeus/miniconda3/bin/conda
+2025-02-16 11:12:11.407 [info] Discovered env: /home/zeus/miniconda3/envs/cloudspace/bin/python
+2025-02-16 11:12:11.408 [info] Discovered manager: (Poetry) /commands/poetry
+2025-02-16 11:12:11.452 [info] Discovered env: /usr/bin/python3
+2025-02-16 11:12:11.464 [info] Discovered env: /bin/python3
+2025-02-16 11:12:11.517 [info] Locator Conda took 57.958464ms
+2025-02-16 11:12:11.517 [info] Locator Homebrew took 90.645µs
+2025-02-16 11:12:11.517 [info] Locator LinuxGlobal took 70.529482ms
+2025-02-16 11:12:11.518 [info] Locator PipEnv took 9.84µs
+2025-02-16 11:12:11.518 [info] Locator Poetry took 125.172µs
+2025-02-16 11:12:11.518 [info] Locator PyEnv took 166.341µs
+2025-02-16 11:12:11.518 [info] Locator Venv took 206.963µs
+2025-02-16 11:12:11.518 [info] Locator VirtualEnv took 19.828µs
+2025-02-16 11:12:11.518 [info] Locator VirtualEnvWrapper took 13.274µs
+2025-02-16 11:12:11.518 [info] Locator GlobalVirtualEnvs took 88.596µs
+2025-02-16 11:12:11.518 [info] Locator Locators took 76.137327ms
+2025-02-16 11:12:11.518 [info] Locator Path took 126.217916ms
+2025-02-16 11:12:11.518 [info] Locator Workspaces took 49.816566ms
+2025-02-16 11:12:11.518 [info] Refresh completed in 126ms
+2025-02-16 11:13:20.880 [info] Resolved Python Environment /home/zeus/miniconda3/envs/cloudspace/bin/python
+2025-02-16 11:14:08.912 [info] Resolved Python Environment /home/zeus/miniconda3/envs/cloudspace/bin/python
+2025-02-16 11:15:09.338 [info] Resolved Python Environment /home/zeus/miniconda3/envs/cloudspace/bin/python
+2025-02-16 11:15:47.943 [info] Resolved Python Environment /home/zeus/miniconda3/envs/cloudspace/bin/python
+2025-02-16 11:17:36.934 [info] Resolved Python Environment /home/zeus/miniconda3/envs/cloudspace/bin/python
+2025-02-16 11:18:11.712 [info] Resolved Python Environment /home/zeus/miniconda3/envs/cloudspace/bin/python
+2025-02-16 11:19:42.670 [info] Resolved Python Environment /home/zeus/miniconda3/envs/cloudspace/bin/python
+2025-02-16 11:20:17.682 [info] Resolved Python Environment /home/zeus/miniconda3/envs/cloudspace/bin/python
+2025-02-16 11:22:40.909 [info] Resolved Python Environment /home/zeus/miniconda3/envs/cloudspace/bin/python
+2025-02-16 11:23:27.715 [info] Resolved Python Environment /home/zeus/miniconda3/envs/cloudspace/bin/python
+2025-02-16 11:24:16.345 [info] Resolved Python Environment /home/zeus/miniconda3/envs/cloudspace/bin/python
+2025-02-16 11:24:46.553 [info] Resolved Python Environment /home/zeus/miniconda3/envs/cloudspace/bin/python
+2025-02-16 11:25:29.493 [info] Resolved Python Environment /home/zeus/miniconda3/envs/cloudspace/bin/python
+2025-02-16 11:30:25.172 [info] Resolved Python Environment /home/zeus/miniconda3/envs/cloudspace/bin/python
+2025-02-16 11:33:07.084 [info] Resolved Python Environment /home/zeus/miniconda3/envs/cloudspace/bin/python
+2025-02-16 11:36:15.164 [info] Resolved Python Environment /home/zeus/miniconda3/envs/cloudspace/bin/python
+2025-02-16 11:36:58.449 [info] Resolved Python Environment /home/zeus/miniconda3/envs/cloudspace/bin/python
+2025-02-16 11:39:47.572 [info] Resolved Python Environment /home/zeus/miniconda3/envs/cloudspace/bin/python
+2025-02-16 11:42:26.581 [info] Resolved Python Environment /home/zeus/miniconda3/envs/cloudspace/bin/python
+2025-02-16 11:44:04.814 [info] Resolved Python Environment /home/zeus/miniconda3/envs/cloudspace/bin/python
+2025-02-16 12:03:42.471 [info] Resolved Python Environment /home/zeus/miniconda3/envs/cloudspace/bin/python

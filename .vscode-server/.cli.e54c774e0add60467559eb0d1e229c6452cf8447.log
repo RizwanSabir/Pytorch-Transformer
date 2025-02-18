@@ -1,0 +1,4 @@
+Listening on 127.0.0.1:50479
+[2025-02-18 11:48:40] info Disposed of connection to running server.
+[2025-02-18 11:48:41] info Checking /teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/log.txt and /teamspace/studios/this_studio/.vscode-server/cli/servers/Stable-e54c774e0add60467559eb0d1e229c6452cf8447/pid.txt for a running server...
+[2025-02-18 11:48:41] info Found running server (pid=1881)

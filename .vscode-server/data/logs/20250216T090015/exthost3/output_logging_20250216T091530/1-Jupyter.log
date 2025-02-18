@@ -1,0 +1,70 @@
+Visual Studio Code (1.97.2, ssh-remote, desktop)
+Jupyter Extension Version: 2025.1.0.
+Python Extension Version: 2025.0.0.
+Pylance Extension Version: 2025.2.1.
+Platform: linux (x64).
+Home = /teamspace/studios/this_studio
+Temp Storage folder ~/.vscode-server/data/User/globalStorage/ms-toolsai.jupyter/version-2025.1.0
+Workspace folder /teamspace/studios/this_studio
+09:16:52.140 [info] Starting Kernel (Python Path: /home/zeus/miniconda3/envs/cloudspace/bin/python, Conda, 3.10.10) for '~/model.ipynb' (disableUI=false)
+09:16:53.717 [info] Process Execution: /home/zeus/miniconda3/envs/cloudspace/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+09:16:53.749 [info] Process Execution: /home/zeus/miniconda3/envs/cloudspace/bin/python -m ipykernel_launcher --f=<username>/.local/share/jupyter/runtime/kernel-v3140a52815eaa59e3ea64e9560f5265004bac09a9.json
+    > cwd: <username>
+09:16:53.980 [info] Process Execution: /home/zeus/miniconda3/envs/cloudspace/bin/python -m pip list
+09:16:54.713 [info] Kernel successfully started
+09:16:54.752 [info] Process Execution: /home/zeus/miniconda3/envs/cloudspace/bin/python <username>/.vscode-server/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64/pythonFiles/printJupyterDataDir.py
+09:17:10.218 [warn] Cell completed with errors [su [Error]: [Errno 2] No such file or directory: 'image_path.jpg'
+	at n.execute (<username>/.vscode-server/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64/dist/extension.node.js:297:4958)] {
+  ename: 'FileNotFoundError',
+  evalue: "[Errno 2] No such file or directory: 'image_path.jpg'",
+  traceback: [
+    '\x1B[0;31m---------------------------------------------------------------------------\x1B[0m',
+    '\x1B[0;31mFileNotFoundError\x1B[0m                         Traceback (most recent call last)',
+    'Cell \x1B[0;32mIn[2], line 3\x1B[0m\n' +
+      '\x1B[1;32m      1\x1B[0m \x1B[38;5;28;01mfrom\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;21;01mIPython\x1B[39;00m\x1B[38;5;21;01m.\x1B[39;00m\x1B[38;5;21;01mdisplay\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[38;5;28;01mimport\x1B[39;00m display, Image\n' +
+      '\x1B[0;32m----> 3\x1B[0m display(\x1B[43mImage\x1B[49m\x1B[43m(\x1B[49m\x1B[43mfilename\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[38;5;124;43m"\x1B[39;49m\x1B[38;5;124;43mimage_path.jpg\x1B[39;49m\x1B[38;5;124;43m"\x1B[39;49m\x1B[43m)\x1B[49m)\n',
+    'File \x1B[0;32m/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/IPython/core/display.py:970\x1B[0m, in \x1B[0;36mImage.__init__\x1B[0;34m(self, data, url, filename, format, embed, width, height, retina, unconfined, metadata, alt)\x1B[0m\n' +
+      '\x1B[1;32m    968\x1B[0m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39munconfined \x1B[38;5;241m=\x1B[39m unconfined\n' +
+      '\x1B[1;32m    969\x1B[0m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39malt \x1B[38;5;241m=\x1B[39m alt\n' +
+      '\x1B[0;32m--> 970\x1B[0m \x1B[38;5;28;43msuper\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43mImage\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;28;43mself\x1B[39;49m\x1B[43m)\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[38;5;21;43m__init__\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43mdata\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mdata\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43murl\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43murl\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mfilename\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mfilename\x1B[49m\x1B[43m,\x1B[49m\n' +
+      '\x1B[1;32m    971\x1B[0m \x1B[43m        \x1B[49m\x1B[43mmetadata\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mmetadata\x1B[49m\x1B[43m)\x1B[49m\n' +
+      "\x1B[1;32m    973\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mwidth \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m \x1B[38;5;129;01mand\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mmetadata\x1B[38;5;241m.\x1B[39mget(\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mwidth\x1B[39m\x1B[38;5;124m'\x1B[39m, {}):\n" +
+      "\x1B[1;32m    974\x1B[0m     \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mwidth \x1B[38;5;241m=\x1B[39m metadata[\x1B[38;5;124m'\x1B[39m\x1B[38;5;124mwidth\x1B[39m\x1B[38;5;124m'\x1B[39m]\n",
+    'File \x1B[0;32m/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/IPython/core/display.py:327\x1B[0m, in \x1B[0;36mDisplayObject.__init__\x1B[0;34m(self, data, url, filename, metadata)\x1B[0m\n' +
+      '\x1B[1;32m    324\x1B[0m \x1B[38;5;28;01melif\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mmetadata \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[1;32m    325\x1B[0m     \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mmetadata \x1B[38;5;241m=\x1B[39m {}\n' +
+      '\x1B[0;32m--> 327\x1B[0m \x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mreload\x1B[49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m    328\x1B[0m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_check_data()\n',
+    'File \x1B[0;32m/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/IPython/core/display.py:1005\x1B[0m, in \x1B[0;36mImage.reload\x1B[0;34m(self)\x1B[0m\n' +
+      '\x1B[1;32m   1003\x1B[0m \x1B[38;5;250m\x1B[39m\x1B[38;5;124;03m"""Reload the raw data from file or URL."""\x1B[39;00m\n' +
+      '\x1B[1;32m   1004\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39membed:\n' +
+      '\x1B[0;32m-> 1005\x1B[0m     \x1B[38;5;28;43msuper\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43mImage\x1B[49m\x1B[43m,\x1B[49m\x1B[38;5;28;43mself\x1B[39;49m\x1B[43m)\x1B[49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mreload\x1B[49m\x1B[43m(\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[1;32m   1006\x1B[0m     \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mretina:\n' +
+      '\x1B[1;32m   1007\x1B[0m         \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_retina_shape()\n',
+    'File \x1B[0;32m/home/zeus/miniconda3/envs/cloudspace/lib/python3.10/site-packages/IPython/core/display.py:353\x1B[0m, in \x1B[0;36mDisplayObject.reload\x1B[0;34m(self)\x1B[0m\n' +
+      '\x1B[1;32m    351\x1B[0m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mfilename \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[1;32m    352\x1B[0m     encoding \x1B[38;5;241m=\x1B[39m \x1B[38;5;28;01mNone\x1B[39;00m \x1B[38;5;28;01mif\x1B[39;00m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mb\x1B[39m\x1B[38;5;124m"\x1B[39m \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39m_read_flags \x1B[38;5;28;01melse\x1B[39;00m \x1B[38;5;124m"\x1B[39m\x1B[38;5;124mutf-8\x1B[39m\x1B[38;5;124m"\x1B[39m\n' +
+      '\x1B[0;32m--> 353\x1B[0m     \x1B[38;5;28;01mwith\x1B[39;00m \x1B[38;5;28;43mopen\x1B[39;49m\x1B[43m(\x1B[49m\x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43mfilename\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[38;5;28;43mself\x1B[39;49m\x1B[38;5;241;43m.\x1B[39;49m\x1B[43m_read_flags\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mencoding\x1B[49m\x1B[38;5;241;43m=\x1B[39;49m\x1B[43mencoding\x1B[49m\x1B[43m)\x1B[49m \x1B[38;5;28;01mas\x1B[39;00m f:\n' +
+      '\x1B[1;32m    354\x1B[0m         \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39mdata \x1B[38;5;241m=\x1B[39m f\x1B[38;5;241m.\x1B[39mread()\n' +
+      '\x1B[1;32m    355\x1B[0m \x1B[38;5;28;01melif\x1B[39;00m \x1B[38;5;28mself\x1B[39m\x1B[38;5;241m.\x1B[39murl \x1B[38;5;129;01mis\x1B[39;00m \x1B[38;5;129;01mnot\x1B[39;00m \x1B[38;5;28;01mNone\x1B[39;00m:\n' +
+      '\x1B[1;32m    356\x1B[0m     \x1B[38;5;66;03m# Deferred import\x1B[39;00m\n',
+    "\x1B[0;31mFileNotFoundError\x1B[0m: [Errno 2] No such file or directory: 'image_path.jpg'"
+  ]
+}
+09:17:19.494 [warn] Cell completed with errors [su [Error]: unterminated string literal (detected at line 3) (905101978.py, line 3)
+	at n.execute (<username>/.vscode-server/extensions/ms-toolsai.jupyter-2025.1.0-linux-x64/dist/extension.node.js:297:4958)] {
+  ename: 'SyntaxError',
+  evalue: 'unterminated string literal (detected at line 3) (905101978.py, line 3)',
+  traceback: [
+    '\x1B[0;36m  Cell \x1B[0;32mIn[3], line 3\x1B[0;36m\x1B[0m\n' +
+      '\x1B[0;31m    display(Image(filename="from IPython.display import display, Image\x1B[0m\n' +
+      '\x1B[0m                           ^\x1B[0m\n' +
+      '\x1B[0;31mSyntaxError\x1B[0m\x1B[0;31m:\x1B[0m unterminated string literal (detected at line 3)\n'
+  ]
+}
+09:17:40.659 [info] Disposing request as the cell (-1) was deleted ~/model.ipynb
+09:17:40.659 [info] Disposing request as the cell (-1) was deleted ~/model.ipynb
+09:17:40.659 [info] Disposing request as the cell (-1) was deleted ~/model.ipynb
+09:17:40.659 [info] Disposing request as the cell (-1) was deleted ~/model.ipynb
+09:20:36.389 [info] Disposing request as the cell (-1) was deleted ~/model.ipynb
+10:28:18.955 [info] Dispose Kernel '~/model.ipynb' associated with '~/model.ipynb'
